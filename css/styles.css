@@ -128,6 +128,10 @@ main{
 
 }
 
+.card__link:hover {
+    background-color: greenyellow;
+}
+
 .card__header-img{
    width: 250px ;
    height: 250px;
@@ -144,6 +148,10 @@ main{
 .card__header-img{
     border-radius: 10px;
      width: 300px;
+}
+.card__header:hover{
+   
+
 }
 
 .map{
@@ -246,8 +254,34 @@ main{
     margin: 0 auto ;
 }
 
+.carrusel {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    
+}
+.carrusel ul {
+    animation: 2s;
+    display: flex;
+    width: 400%;
+}
 
+.carrusel li {
+    width: 100%;
+    list-style: none;
+}
 
+.carrusel img {
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.coder {
+    padding-left: 20px;
+}
 @media (max-width: 300px) {
     
     .content__gird {
