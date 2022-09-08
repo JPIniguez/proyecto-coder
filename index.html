@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia</title>
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    
 </head>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 <body>
     <!-- encabezado -->
     <header class="header">
@@ -76,23 +80,27 @@
     <div class="coder">
         <a href="https://github.com/Juanseh1991/proyecto-coder">Proyecto coder</a>
     </div>
-        <div class="carrusel">
-                <ul>
-                    <li><img src="https://picsum.photos/200/300" alt="lorem"></li>
-                
-                
-                    <li><img src="https://decaedro.com.ar/wp-content/uploads/2016/06/1500x844_tendencias_marketing_digital.jpg" alt="mk"></li>
-               
-                
-                    <li><img src="https://static.idento.es/wp-content/uploads/2021/04/que-hace-una-agencia-de-marketing-digital.jpg" alt="pc"></li>
-                
-                
-                    <li><img src="https://www.devaradise.com/id/wp-content/uploads/sites/4/2014/05/Responsive-Web-Design.jpg" alt="responsiv"></li>
-                
-                
-                    <li><img src="https://picsum.photos/200/300 " alt="lorem"></li>
-                </ul>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://decaedro.com.ar/wp-content/uploads/2016/06/1500x844_tendencias_marketing_digital.jpg" class="d-block w-100" alt="imagen1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.idento.es/wp-content/uploads/2021/04/que-hace-una-agencia-de-marketing-digital.jpg" class="d-block w-100" alt="iamgen2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.devaradise.com/id/wp-content/uploads/sites/4/2014/05/Responsive-Web-Design.jpg" class="d-block w-100" alt="iamgen3">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     
     </main>
 

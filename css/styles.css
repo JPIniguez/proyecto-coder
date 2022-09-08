@@ -149,10 +149,6 @@ main{
     border-radius: 10px;
      width: 300px;
 }
-.card__header:hover{
-   
-
-}
 
 .map{
     display: flex;
@@ -254,30 +250,7 @@ main{
     margin: 0 auto ;
 }
 
-.carrusel {
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-    display: flex;
-    
-}
-.carrusel ul {
-    animation: 2s;
-    display: flex;
-    width: 400%;
-}
 
-.carrusel li {
-    width: 100%;
-    list-style: none;
-}
-
-.carrusel img {
-    margin: 20px;
-    padding: 10px;
-    width: 400px;
-    height: 300px;
-}
 
 .coder {
     padding-left: 20px;
